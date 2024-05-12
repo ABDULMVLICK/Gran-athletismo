@@ -1,0 +1,493 @@
+body{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+header nav{
+    width: 100%;
+    height: 5vh;
+    color: black;
+    background-color: ghostwhite;
+    display: flex;
+    padding-top: 25px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 100px;
+    font-size: 14px;
+}
+
+header nav li.LOREM {
+    margin-right: 40vh;
+    margin-left: 5vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+
+}
+
+header nav li.LOREM a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav li.LANGUES a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header nav li.LOREM:hover {
+  border-bottom: solid 5px black;
+  cursor: pointer;
+}
+
+header nav li.Joueur1:hover {
+    border-bottom: solid 5px black;
+    cursor: pointer;
+}
+
+header nav li.Joueur2:hover {
+    border-bottom: solid 5px black;
+    cursor: pointer;
+}
+
+header nav li.LANGUES:hover {
+    border-bottom: solid 5px black;
+    cursor: pointer;
+}
+
+header nav li.Joueur1 {
+    margin-right: 7vh;
+    margin-left: 20vh;
+}
+
+header nav li.Joueur1 a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav li.Joueur2 a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav li.LANGUES {
+    margin-left: 50vh;
+    margin-right: 5vh;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+main .presentation{
+    width: 100%;
+    height: 120vh;
+    margin: 0;
+    background-color:whitesmoke;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+main .presentation video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+main .presentation .gran article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+   font-style: normal;
+   padding-top: 30vh;
+   font-weight: 400;
+   font-size: 180px;
+   color: white;
+} 
+
+
+
+
+main .image{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background: url(image/courir\ fond.jpg) no-repeat ;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+
+main .image article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 50px;
+   text-align: left;
+}
+
+main .image article.texte-féderation{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:12px ;
+    text-align: left;
+}
+
+main .image .video-texte{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+main .carousel{
+    width: 100%;
+    height: 130vh;
+    margin: 0;
+    background-color: whitesmoke;
+    
+    
+}
+
+main .carou{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    position: relative;
+}
+
+main .carousel .team{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-left: 10vh;
+    padding-top: 10vh;
+   font-style: normal;
+   font-size: 50px;
+}
+
+main .carousel .carou .profil1{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    background-color: whitesmoke;
+    padding-bottom: 10vh;
+    width: 100%;
+    
+
+    
+}
+
+main .carousel .carou .profil2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    background-color: whitesmoke;
+    padding-bottom: 10vh;
+    width: 100%;
+    
+    
+}
+
+
+main .carousel .carou article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-left: 5vh;
+    padding-top: 10vh;
+   font-style: normal;
+   font-size: 40px;
+   text-align: left;
+}
+
+
+
+main .carousel .carou article .texte-profil{
+    padding-top: 5vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:15px ;
+    text-align: left;
+}
+
+main .carousel img{
+    position: relative;
+    margin: 0;
+}
+
+
+
+main .articles{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #AF524B;
+}
+
+main .articles .pal P{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-left: 10vh;
+    padding-top: 7vh;
+   font-style: normal;
+   font-size: 50px;
+   margin: 0;
+   color: white;
+}
+
+main .articles .slider{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+main .articles .img-div{
+    width: 100%;
+    height: 470px;
+    margin: 0 15px;
+    padding-top: 0%;
+}
+
+main .articles .div1{
+   background: url(image/ntd1.png) center no-repeat; 
+   
+}
+
+main .articles .div2{
+    background: url(image/NTD2.png)  center no-repeat;
+    
+ }
+
+ main .articles .div3{
+    background: url(image/NTD3.png)  center no-repeat;
+    
+ }
+
+ main .articles .div4{
+    background: url(image/NTD4.png)  center no-repeat;
+    
+ }
+
+
+
+
+
+main .olympique{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+main .olympique article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 50px;
+   text-align: left;
+}
+
+main .olympique article.texte-jeux{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:14px ;
+    text-align: left;
+}
+
+main .olympique .olymp{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+}
+
+
+
+
+
+
+footer .footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    margin: 0%;
+}
+
+footer .footer .resau{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+footer .footer .resau img{
+    margin-right: 15px;
+}
+
+footer .footer .texte-footer{
+color: white;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+
+footer .footer .texte-footer li {
+    display: inline-block;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+
+}
+
+footer .footer .texte-footer li.LOREMM a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.Joueur1 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.Joueur2 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.langues a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.LANGUES a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.LOREMM:hover,
+li.Joueur1:hover,
+li.Joueur2:hover,
+li.LANGUES:hover {
+  border-bottom: solid 5px white;
+  cursor: pointer;
+}
+
+
+/* SSSSSSSSSSSSSSSSSSSSSS---------RESPONSIVE----------SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+@media screen and (min-width: 320px) and (max-width:1023px) {
+
+    header nav {
+        padding-top: 10px; 
+        
+    }
+    
+    header nav li {
+        margin-right: 2vh; 
+        margin-left: 2vh; 
+        font-size: 12px;
+    }
+
+    header nav li.LOREM {
+        margin-right: 2vh; 
+    }
+
+    header nav li.Joueur1 {
+        margin-left: 5vh; 
+    }
+
+    header nav li.LANGUES {
+        margin-left: 0.5vh; 
+    }
+
+    
+    main .presentation .gran article{
+        font-size: 100px;
+    }
+
+    main .presentation video{
+        width: 200vh;
+        height: 10vh;
+    }
+
+    .video-texte {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-texte img {
+        width: 400px;
+        height: 270px; 
+        
+    }
+    .team {
+        top: 0px;
+    }
+    li.joueur1  {
+        background-color: red;
+        
+    }
+
+    main .carousel .carou article .texte-profil{
+        display: none;
+    }
+
+    main .carousel .carou article{
+        display: none;
+    }
+
+    main .olympique .olymp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .olympique article.texte-jeux{
+        
+        width: 400px;
+        height: 50px;
+    }
+
+    main .olympique .olymp img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

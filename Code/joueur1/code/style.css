@@ -1,0 +1,571 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+
+header nav{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background-color:black;
+    display: flex;
+    padding-top: 25px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 14px;
+}
+
+header nav li.LOREM {
+    margin-right: 40vh;
+    margin-left: 5vh;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+}
+
+header nav li.LOREM a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li.LANGUES a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li.LOREM:hover,
+li.Joueur1:hover,
+li.Joueur2:hover,
+li.LANGUES:hover {
+  border-bottom: solid 5px white;
+  cursor: pointer;
+}
+
+
+header nav li.Joueur1 {
+    margin-right: 7vh;
+    margin-left: 20vh;
+    color: #AF524B;
+
+}
+
+header nav li.Joueur1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav li.Joueur2 a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav li.LANGUES {
+    margin-left: 50vh;
+    margin-right: 5vh;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+main section.av {
+    background-color: black;
+}
+
+main .saul {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    background-color: black ;
+    
+    
+}
+
+main .saul img{
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    
+    
+}
+
+main .fondiste{
+
+    width: 100%;
+    height: 110vh;
+    margin-top: 200px;
+    display: flex;
+    
+    
+}
+
+main .fondiste .texte-fondiste{
+    display: block;
+    padding-top: 17vh;
+    padding-left: 20vh;
+}
+
+main .fondiste .texte-fondiste article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 40px;
+   text-align: left;
+}
+
+main .fondiste .texte-fondiste article.sous-fondiste{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:15px ;
+    text-align: left;
+}
+
+main .fondiste .slider{
+    margin-top: 10px;
+    width: 25%;
+    height: 300%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+main .fondiste .img-div{
+    padding-top: 20vh;
+    width: 50%;
+    height: 70vh;
+    margin: 0 15px;
+}
+
+main .fondiste .div1{
+   background: url(../images/SAUL\ COUR.jpg) center no-repeat; 
+   background-size: cover;
+}
+
+main .fondiste .div2{
+    background: url(../images/saul\ ordonez.png)  center no-repeat;
+    background-size: cover;
+ }
+
+
+main .content{
+    clip-path: polygon(0 0, 100% 25%, 100% 80%, 0 100%);
+    background: url(../images/piste-athletisme.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;  
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #AF524B;
+    text-align: center;
+    
+}
+
+main .content img{
+    margin-top: 165px;
+}
+
+main .content .bloc{
+    display: block;
+    padding-top: 30vh;
+}
+
+main .content .bloc article {
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 40px;
+   text-align: left;
+}
+
+main .content .bloc article.sous-content {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:15px ;
+    text-align: left;
+}
+
+main .acier {
+    
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .acier .texte-acier{
+    display: block;
+    padding-top: 17vh;
+    padding-left: 20vh;
+}
+
+main .acier .texte-acier article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 35px;
+   text-align: left;
+}
+
+main .acier .texte-acier article.sous-acier{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:13px ;
+    text-align: left;
+}
+
+main .acier img{
+    margin-top: 25vh;
+}
+
+main .sport{
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+    background: url(../images/SAUL\ COUR.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .sport .citation{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 35vh;
+   font-style: normal;
+   font-size: 35px;
+   text-align: center;
+}
+
+main .sport .image{
+    padding-top: 10vh;
+}
+
+main .anecdote{
+    
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+}
+
+main .anecdote .texte-anecdote{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0%;
+}
+
+main .anecdote .texte-anecdote article{
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    padding-top: 5vh;
+   font-style: normal;
+   font-size: 35px;
+   text-align: left;
+}
+
+main .anecdote .texte-anecdote article.texte-reve{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:13px ;
+    text-align: left;
+}
+
+
+
+
+main .anecdote .texte-photo article.texte-anec{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size:13px ;
+    text-align: left;
+}
+
+main .anecdote .texte-photo img{
+    padding-top: 1vh;
+}
+
+
+
+footer .footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    margin: 0%;
+}
+
+footer .footer .resau{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+footer .footer .resau img{
+    margin-right: 15px;
+}
+
+footer .footer .texte-footer{
+color: white;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+
+footer .footer .texte-footer li {
+    display: inline-block;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+
+}
+
+footer .footer .texte-footer li.LOREM a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.Joueur1 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.Joueur2 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.langues a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.LANGUES a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer .texte-footer li.LOREM:hover {
+    border-bottom: solid 5px white;
+    cursor: pointer;
+  }
+
+/* SSSSSSSSSSSSSSSSSSSSSS---------RESPONSIVE----------SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+@media screen and (min-width: 320px) and (max-width:1023px) {
+
+   
+
+    header nav {
+        padding-top: 10px; 
+        
+    }
+    
+    header nav li {
+        margin-right: 2vh; 
+        margin-left: 2vh; 
+        font-size: 12px;
+    }
+
+    header nav li.LOREM {
+        margin-right: 2vh; 
+    }
+
+    header nav li.Joueur1 {
+        margin-left: 5vh; 
+    }
+
+    header nav li.LANGUES {
+        margin-left: 0.5vh; 
+    }
+
+    main .saul {
+        width: 100%;
+        height: 50vh;
+        margin: 0;
+        background-color: black ;
+    }
+    
+    
+
+main .texte-article {
+    font-family: "Passion One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+}
+
+main .texte-article.sous-article {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+}
+
+/* Fondiste */
+
+main .fondiste {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+main .fondiste .texte-fondiste {
+    padding: 5% 8%;
+    text-align: center;
+}
+
+main .fondiste .texte-fondiste article {
+    font-size: 20px;
+}
+
+main .fondiste .texte-fondiste article.sous-fondiste {
+    font-size: 13px;
+}
+
+main .fondiste .slider,
+main .fondiste .img-div {
+    width: 100%;
+    height: auto;
+}
+
+/* Content */
+
+main .content {
+    width: 100%;
+    height: auto;
+    background-color: #AF524B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content img {
+    margin-top: 10%;
+}
+
+main .content .bloc {
+    padding: 5% 8%;
+}
+
+main .content .bloc article {
+    font-size: 20px;
+}
+
+main .content .bloc article.sous-content {
+    font-size: 13px;
+}
+
+/* Acier */
+
+main .acier {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .acier .texte-acier {
+    padding: 5% 8%;
+    text-align: center;
+}
+
+main .acier .texte-acier article {
+    font-size: 20px;
+}
+
+main .acier .texte-acier article.sous-acier {
+    font-size: 13px;
+}
+
+main .acier img {
+    margin-top: 10%;
+}
+
+/* Sport */
+
+main .sport {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .sport .citation {
+    padding: 10% 8% 5% 8%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+main .sport .image {
+    width: 100%;
+    height: auto;
+}
+
+/* Anecdote */
+
+main .anecdote {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .anecdote .texte-anecdote {
+    padding: 5% 8%;
+}
+
+main .anecdote .texte-anecdote article {
+    font-size: 20px;
+}
+
+main .anecdote .texte-anecdote article.texte-reve,
+main .anecdote .texte-photo article.texte-anec {
+    font-size: 13px;
+}
+
+main .anecdote .texte-photo img {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
