@@ -164,7 +164,7 @@ main .sourir .img-div{
 }
 
 main .sourir .div1{
-   background: url(/image/adben1.png) center no-repeat; 
+   background: url(../../../image/adben1.png) center no-repeat; 
    background-size: cover;
 }
 
@@ -307,7 +307,7 @@ main .fin .div3{
 }
 
 main .fin .div4{
-    background: url(/image/OUF.png)  center no-repeat;
+    background: url(../../../image/OUF.png)  center no-repeat;
     background-size: cover;
  }
 
